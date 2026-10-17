@@ -1,10 +1,19 @@
 # SplitKeys
 
-A big-key Android keyboard built for low-vision users — a split-row QWERTY layout with huge keys, written for my mother, who is partially blind from cataracts.
+**A keyboard with keys so big, missing them is genuinely difficult.**
 
-**Privacy by design:** the app declares **no internet permission at all**. It cannot connect to the internet, so nothing typed on it can ever leave the device. No ads, no analytics, no accounts.
+I built SplitKeys for my mother. She is partially blind from cataracts, and every keyboard on the Play Store apparently assumed she has the eyesight of a fighter pilot and the fingertips of a surgeon. She has neither. So this one has keys the size of postage stamps, letters you can read from across the room, and contrast cranked all the way up — in Light (white keys, black letters) or Dark (black keys, white letters, gloriously yellow action keys).
 
-## Features
+## The cool thingmajig
+
+- **Keys you can't miss** — the QWERTY rows are split in two so every key gets to be enormous
+- **It physically cannot spy on you** — the app has *no internet permission*. Not "we promise not to collect data" — it is architecturally incapable of phoning home. What you type stays on your phone, forever, full stop
+- **It learns, locally** — word suggestions that pick up your vocabulary and keep it on the device, because the learning should belong to you
+- **Setup a grandparent can survive** — big text, big buttons, theme choices shown as actual little keyboards instead of abstract settings jargon
+- **The little comforts** — magnified key previews, click sounds, auto-capitalization, double-tap-space for a full stop
+- **No ads. No accounts. No subscriptions. No nonsense.**
+
+## Features (the formal list, for the search engines)
 
 - Split-row QWERTY layout (each standard row is split across two) so every key can be extra large
 - High-contrast keys only — two themes:
