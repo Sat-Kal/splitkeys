@@ -4,6 +4,12 @@
 
 I built SplitKeys for my mother. She is partially blind from cataracts, and every keyboard on the Play Store apparently assumed she has the eyesight of a fighter pilot and the fingertips of a surgeon. She has neither. So this one has keys the size of postage stamps, letters you can read from across the room, and contrast cranked all the way up — in Light (white keys, black letters) or Dark (black keys, white letters, gloriously yellow action keys).
 
+## See it
+
+![SplitKeys keyboard — Dark theme](screenshots/keyboard-dark.jpg)
+
+*The Dark theme: black keys, white letters, yellow action keys. The Light theme is the same layout in white.*
+
 ## The good stuff
 
 - **Keys you can't miss** — the QWERTY rows are split in two so every key gets to be enormous
