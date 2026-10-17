@@ -6,9 +6,13 @@ I built SplitKeys for my mother. She is partially blind from cataracts, and ever
 
 ## See it
 
-![SplitKeys keyboard — Dark theme](screenshots/keyboard-dark.jpg)
+<img src="screenshots/keyboard-dark.jpg" width="49%"> <img src="screenshots/keyboard-light.jpg" width="49%">
 
-*The Dark theme: black keys, white letters, yellow action keys. The Light theme is the same layout in white.*
+*Dark theme (left) and Light theme (right) — the only two looks, both high-contrast. Word suggestions ride on top, learned on the device.*
+
+<img src="screenshots/setup.jpg" width="49%"> <img src="screenshots/themes.jpg" width="49%">
+
+*The setup app: numbered steps, giant buttons, and theme cards that show the actual keys instead of describing them.*
 
 ## The good stuff
 
