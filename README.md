@@ -4,7 +4,7 @@
 
 I built SplitKeys for my mother. She is partially blind from cataracts, and every keyboard on the Play Store apparently assumed she has the eyesight of a fighter pilot and the fingertips of a surgeon. She has neither. So this one has keys the size of postage stamps, letters you can read from across the room, and contrast cranked all the way up — in Light (white keys, black letters) or Dark (black keys, white letters, gloriously yellow action keys).
 
-## The cool thingmajig
+## The good stuff
 
 - **Keys you can't miss** — the QWERTY rows are split in two so every key gets to be enormous
 - **It physically cannot spy on you** — the app has *no internet permission*. Not "we promise not to collect data" — it is architecturally incapable of phoning home. What you type stays on your phone, forever, full stop
