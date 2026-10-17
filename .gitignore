@@ -1,0 +1,12 @@
+# Signing key — never commit
+sk.keystore
+
+# Build outputs (APKs are published as GitHub Release assets)
+*.apk
+*.idsig
+build/
+app/build/
+
+# Local scratch
+*.log
+.DS_Store

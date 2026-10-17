@@ -1,0 +1,27 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.splitkeys.keyboard'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.splitkeys.keyboard"
+        minSdk 26
+        targetSdk 34
+        versionCode 30
+        versionName "3.8"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}

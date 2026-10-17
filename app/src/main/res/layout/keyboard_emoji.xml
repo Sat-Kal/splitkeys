@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/kb_bg"
+    android:padding="6dp">
+
+    <ScrollView
+        android:id="@+id/emoji_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="372dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+<LinearLayout style="@style/KeyRow">
+            <Button style="@style/Key.Emoji" android:tag="key:😀" android:text="😀" />
+            <Button style="@style/Key.Emoji" android:tag="key:😃" android:text="😃" />
+            <Button style="@style/Key.Emoji" android:tag="key:😄" android:text="😄" />
+            <Button style="@style/Key.Emoji" android:tag="key:😁" android:text="😁" />
+            <Button style="@style/Key.Emoji" android:tag="key:😆" android:text="😆" />
+            <Button style="@style/Key.Emoji" android:tag="key:😅" android:text="😅" />
+            <Button style="@style/Key.Emoji" android:tag="key:🤣" android:text="🤣" />
+            <Button style="@style/Key.Emoji" android:tag="key:😂" android:text="😂" />
+        </LinearLayout>
+
+<LinearLayout style="@style/KeyRow">
+            <Button style="@style/Key.Emoji" android:tag="key:🙂" android:text="🙂" />
+            <Button style="@style/Key.Emoji" android:tag="key:🙃" android:text="🙃" />
+            <Button style="@style/Key.Emoji" android:tag="key:😉" android:text="😉" />
+            <Button style="@style/Key.Emoji" android:tag="key:😊" android:text="😊" />
+            <Button style="@style/Key.Emoji" android:tag="key:😇" android:text="😇" />
+            <Button style="@style/Key.Emoji" android:tag="key:😍" android:text="😍" />
+            <Button style="@style/Key.Emoji" android:tag="key:🤩" android:text="🤩" />
+            <Button style="@style/Key.Emoji" android:tag="key:😘" android:text="😘" />
+        </LinearLayout>
+
+<LinearLayout style="@style/KeyRow">
+            <Button style="@style/Key.Emoji" android:tag="key:😛" android:text="😛" />
+            <Button style="@style/Key.Emoji" android:tag="key:😜" android:text="😜" />
+            <Button style="@style/Key.Emoji" android:tag="key:🤪" android:text="🤪" />
+            <Button style="@style/Key.Emoji" android:tag="key:😝" android:text="😝" />
+            <Button style="@style/Key.Emoji" android:tag="key:🤑" android:text="🤑" />
+            <Button style="@style/Key.Emoji" android:tag="key:🤗" android:text="🤗" />
+            <Button style="@style/Key.Emoji" android:tag="key:🤔" android:text="🤔" />
+            <Button style="@style/Key.Emoji" android:tag="key:😐" android:text="😐" />
+        </LinearLayout>
+
+<LinearLayout style="@style/KeyRow">
+            <Button style="@style/Key.Emoji" android:tag="key:🙄" android:text="🙄" />
+            <Button style="@style/Key.Emoji" android:tag="key:😏" android:text="😏" />
+            <Button style="@style/Key.Emoji" android:tag="key:😴" android:text="😴" />
+            <Button style="@style/Key.Emoji" android:tag="key:🤤" android:text="🤤" />
+            <Button style="@style/Key.Emoji" android:tag="key:😷" android:text="😷" />
+            <Button style="@style/Key.Emoji" android:tag="key:🤒" android:text="🤒" />
+            <Button style="@style/Key.Emoji" android:tag="key:😵" android:text="😵" />
+            <Button style="@style/Key.Emoji" android:tag="key:🤯" android:text="🤯" />
+        </LinearLayout>
+
+<LinearLayout style="@style/KeyRow">
+            <Button style="@style/Key.Emoji" android:tag="key:🥳" android:text="🥳" />
+            <Button style="@style/Key.Emoji" android:tag="key:😎" android:text="😎" />
+            <Button style="@style/Key.Emoji" android:tag="key:🤓" android:text="🤓" />
+            <Button style="@style/Key.Emoji" android:tag="key:😮" android:text="😮" />
+            <Button style="@style/Key.Emoji" android:tag="key:😲" android:text="😲" />
+            <Button style="@style/Key.Emoji" android:tag="key:🥺" android:text="🥺" />
+            <Button style="@style/Key.Emoji" android:tag="key:😢" android:text="😢" />
+            <Button style="@style/Key.Emoji" android:tag="key:😭" android:text="😭" />
+        </LinearLayout>
+
+<LinearLayout style="@style/KeyRow">
+            <Button style="@style/Key.Emoji" android:tag="key:😡" android:text="😡" />
+            <Button style="@style/Key.Emoji" android:tag="key:🤬" android:text="🤬" />
+            <Button style="@style/Key.Emoji" android:tag="key:😈" android:text="😈" />
+            <Button style="@style/Key.Emoji" android:tag="key:💀" android:text="💀" />
+            <Button style="@style/Key.Emoji" android:tag="key:☠️" android:text="☠️" />
+            <Button style="@style/Key.Emoji" android:tag="key:👻" android:text="👻" />
+            <Button style="@style/Key.Emoji" android:tag="key:🤖" android:text="🤖" />
+            <Button style="@style/Key.Emoji" android:tag="key:👍" android:text="👍" />
+        </LinearLayout>
+
+<LinearLayout style="@style/KeyRow">
+            <Button style="@style/Key.Emoji" android:tag="key:👎" android:text="👎" />
+            <Button style="@style/Key.Emoji" android:tag="key:👏" android:text="👏" />
+            <Button style="@style/Key.Emoji" android:tag="key:🙏" android:text="🙏" />
+            <Button style="@style/Key.Emoji" android:tag="key:💪" android:text="💪" />
+            <Button style="@style/Key.Emoji" android:tag="key:🔥" android:text="🔥" />
+            <Button style="@style/Key.Emoji" android:tag="key:❤️" android:text="❤️" />
+            <Button style="@style/Key.Emoji" android:tag="key:💔" android:text="💔" />
+            <Button style="@style/Key.Emoji" android:tag="key:✨" android:text="✨" />
+        </LinearLayout>
+
+<LinearLayout style="@style/KeyRow">
+            <Button style="@style/Key.Emoji" android:tag="key:🎉" android:text="🎉" />
+            <Button style="@style/Key.Emoji" android:tag="key:🎂" android:text="🎂" />
+            <Button style="@style/Key.Emoji" android:tag="key:⚽" android:text="⚽" />
+            <Button style="@style/Key.Emoji" android:tag="key:🏀" android:text="🏀" />
+            <Button style="@style/Key.Emoji" android:tag="key:💐" android:text="💐" />
+            <Button style="@style/Key.Emoji" android:tag="key:🚗" android:text="🚗" />
+            <Button style="@style/Key.Emoji" android:tag="key:✈️" android:text="✈️" />
+            <Button style="@style/Key.Emoji" android:tag="key:⭐" android:text="⭐" />
+        </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+<LinearLayout style="@style/KeyRow">
+            <Button style="@style/Key.Function" android:layout_weight="1.5"
+                android:tag="action:to_letters" android:text="ABC" />
+            <Button style="@style/Key.Space" android:layout_weight="3"
+                android:tag="action:space" android:text="" />
+            <Button style="@style/Key.Delete" android:tag="action:delete" android:text="&#x232B;" />
+            <Button style="@style/Key.Function" android:tag="action:enter" android:text="&#x23CE;" />
+        </LinearLayout>
+
+</LinearLayout>

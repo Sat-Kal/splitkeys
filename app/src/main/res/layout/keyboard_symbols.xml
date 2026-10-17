@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/kb_bg"
+    android:padding="6dp">
+
+    <LinearLayout style="@style/KeyRow">
+        <Button style="@style/Key" android:tag="key:1" android:text="1" />
+        <Button style="@style/Key" android:tag="key:2" android:text="2" />
+        <Button style="@style/Key" android:tag="key:3" android:text="3" />
+        <Button style="@style/Key" android:tag="key:4" android:text="4" />
+        <Button style="@style/Key" android:tag="key:5" android:text="5" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/KeyRow">
+        <Button style="@style/Key" android:tag="key:6" android:text="6" />
+        <Button style="@style/Key" android:tag="key:7" android:text="7" />
+        <Button style="@style/Key" android:tag="key:8" android:text="8" />
+        <Button style="@style/Key" android:tag="key:9" android:text="9" />
+        <Button style="@style/Key" android:tag="key:0" android:text="0" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/KeyRow">
+        <Button style="@style/Key" android:tag="key:." android:text="." />
+        <Button style="@style/Key" android:tag="key:'" android:text="'" />
+        <Button style="@style/Key" android:tag="key:," android:text="," />
+        <Button style="@style/Key" android:tag="key:?" android:text="?" />
+        <Button style="@style/Key" android:tag="key:!" android:text="!" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/KeyRow">
+        <Button style="@style/Key" android:tag="key:&quot;" android:text="&quot;" />
+        <Button style="@style/Key" android:tag="key:-" android:text="-" />
+        <Button style="@style/Key" android:tag="key::" android:text=":" />
+        <Button style="@style/Key" android:tag="key:@" android:text="@" />
+        <Button style="@style/Key" android:tag="key:_" android:text="_" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/KeyRow">
+        <Button style="@style/Key" android:tag="key:(" android:text="(" />
+        <Button style="@style/Key" android:tag="key:)" android:text=")" />
+        <Button style="@style/Key" android:tag="key:&lt;" android:text="&lt;" />
+        <Button style="@style/Key" android:tag="key:&gt;" android:text="&gt;" />
+        <Button style="@style/Key" android:tag="key:/" android:text="/" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/KeyRow">
+        <Button style="@style/Key" android:tag="key:\" android:text="\" />
+        <Button style="@style/Key" android:tag="key:;" android:text=";" />
+        <Button style="@style/Key" android:tag="key:~" android:text="~" />
+        <Button style="@style/Key.Function" android:tag="action:emoji" android:text="🙂" />
+        <Button style="@style/Key.Delete" android:tag="action:delete" android:text="&#x232B;" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/KeyRow">
+        <Button style="@style/Key.Function" android:layout_weight="1.5"
+            android:tag="action:to_letters" android:text="ABC" />
+        <Button style="@style/Key.Function" android:layout_weight="1.5"
+            android:tag="action:sym_page2" android:text="1/2" />
+        <Button style="@style/Key.Space" android:layout_weight="3"
+            android:tag="action:space" android:text="" />
+        <Button style="@style/Key.Function" android:tag="action:enter" android:text="&#x23CE;" />
+    </LinearLayout>
+
+</LinearLayout>

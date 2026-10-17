@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/kb_bg"
+    android:padding="6dp">
+
+    <!-- Word prediction strip: current-word completions and next-word
+         predictions. Not a key row (no Buttons), so the key-height
+         setting leaves it alone. -->
+    <LinearLayout
+        android:id="@+id/suggestion_strip"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal"
+        android:background="@color/kb_bg">
+
+        <TextView
+            android:id="@+id/sug0"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:textSize="20dp"
+            android:textColor="@color/key_text"
+            android:background="?android:attr/selectableItemBackground" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/key_stroke" />
+
+        <TextView
+            android:id="@+id/sug1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:textSize="20dp"
+            android:textColor="@color/key_text"
+            android:background="?android:attr/selectableItemBackground" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/key_stroke" />
+
+        <TextView
+            android:id="@+id/sug2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:textSize="20dp"
+            android:textColor="@color/key_text"
+            android:background="?android:attr/selectableItemBackground" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/KeyRow">
+        <Button style="@style/Key" android:tag="key:q" android:text="q" />
+        <Button style="@style/Key" android:tag="key:e" android:text="e" />
+        <Button style="@style/Key" android:tag="key:t" android:text="t" />
+        <Button style="@style/Key" android:tag="key:u" android:text="u" />
+        <Button style="@style/Key" android:tag="key:o" android:text="o" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/KeyRow">
+        <Button style="@style/Key" android:tag="key:w" android:text="w" />
+        <Button style="@style/Key" android:tag="key:r" android:text="r" />
+        <Button style="@style/Key" android:tag="key:y" android:text="y" />
+        <Button style="@style/Key" android:tag="key:i" android:text="i" />
+        <Button style="@style/Key" android:tag="key:p" android:text="p" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/KeyRow">
+        <Button style="@style/Key" android:tag="key:a" android:text="a" />
+        <Button style="@style/Key" android:tag="key:d" android:text="d" />
+        <Button style="@style/Key" android:tag="key:g" android:text="g" />
+        <Button style="@style/Key" android:tag="key:j" android:text="j" />
+        <Button style="@style/Key" android:tag="key:l" android:text="l" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/KeyRow">
+        <Button style="@style/Key" android:tag="key:s" android:text="s" />
+        <Button style="@style/Key" android:tag="key:f" android:text="f" />
+        <Button style="@style/Key" android:tag="key:h" android:text="h" />
+        <Button style="@style/Key" android:tag="key:k" android:text="k" />
+        <Button style="@style/Key" android:tag="key:." android:text="." />
+    </LinearLayout>
+
+    <LinearLayout style="@style/KeyRow">
+        <Button style="@style/Key" android:tag="key:z" android:text="z" />
+        <Button style="@style/Key" android:tag="key:c" android:text="c" />
+        <Button style="@style/Key" android:tag="key:b" android:text="b" />
+        <Button style="@style/Key" android:tag="key:m" android:text="m" />
+        <Button style="@style/Key" android:tag="key:," android:text="," />
+    </LinearLayout>
+
+    <LinearLayout style="@style/KeyRow">
+        <Button style="@style/Key" android:tag="key:x" android:text="x" />
+        <Button style="@style/Key" android:tag="key:v" android:text="v" />
+        <Button style="@style/Key" android:tag="key:n" android:text="n" />
+        <Button style="@style/Key.Function" android:tag="action:emoji" android:text="🙂" />
+        <Button style="@style/Key.Delete" android:tag="action:delete" android:text="&#x232B;" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/KeyRow">
+        <Button style="@style/Key.Function" android:layout_weight="1.5"
+            android:tag="action:to_symbols" android:text="123" android:maxLines="1" />
+        <Button style="@style/Key.Function" android:tag="action:shift" android:text="&#x21E7;" />
+        <Button style="@style/Key.Space" android:layout_weight="3.5"
+            android:tag="action:space" android:text="" />
+        <Button style="@style/Key.Function" android:tag="action:enter" android:text="&#x23CE;" />
+    </LinearLayout>
+
+</LinearLayout>
