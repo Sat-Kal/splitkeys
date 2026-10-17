@@ -58,6 +58,10 @@ $SDK/apksigner sign --ks sk.keystore --ks-key-alias sk \
 
 `sk.keystore` is the release signing key and is **not** in this repository.
 
+## License
+
+MIT — see [LICENSE](LICENSE). Free to use, share, and build on; if it helps someone you love see their keyboard, it has done its job.
+
 ## Credits
 
 Developed by Satya & Lucy.
