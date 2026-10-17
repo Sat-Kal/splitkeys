@@ -23,7 +23,7 @@ I built SplitKeys for my mother. She is partially blind from cataracts, and ever
 - **The little comforts** — magnified key previews, click sounds, auto-capitalization, double-tap-space for a full stop
 - **No ads. No accounts. No subscriptions. No nonsense.**
 
-## Features (the formal list, for the search engines)
+## Features
 
 - Split-row QWERTY layout (each standard row is split across two) so every key can be extra large
 - High-contrast keys only — two themes:
@@ -37,8 +37,8 @@ I built SplitKeys for my mother. She is partially blind from cataracts, and ever
 
 ## Releases
 
-- **Stable 2 — v3.8** (Oct 2026): high-contrast-only themes (Light/Dark), revamped elderly-first setup UI
-- **Stable 1 — v3.0** (Oct 2026): first stable release
+- **v3.8** (Oct 2026): high-contrast-only themes (Light/Dark), revamped elderly-first setup UI
+- **v3.0** (Oct 2026): first stable release
 
 APKs are attached to GitHub Releases. Install by opening the `.apk` on the phone and allowing installs from the browser/files app when prompted.
 
